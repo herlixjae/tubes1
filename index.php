@@ -65,7 +65,3 @@ function getWebsiteContent($sUrl) {
     return file_get_contents($sCacheFolder.$sFilename); 
 } 
 ?>
-<<<<<<< HEAD
-=======
-
->>>>>>> baf6781903566d03e91590cb5534e0eb6a9e3a79
