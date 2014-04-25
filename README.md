@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PROJECT-TUBES1
 ==============
 The PHP Interpreter
@@ -46,4 +45,3 @@ project tubes1
 <br>117006013 Herli Herdiaman</br>
 <br>117006029 Triady D. Septian</br>
 <br>117006033 Terra Anugrah</br>
->>>>>>> baf6781903566d03e91590cb5534e0eb6a9e3a79
