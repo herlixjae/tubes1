@@ -1,10 +1,6 @@
 <?php 
-<<<<<<< HEAD
-$sUrl = 'http://news.google.com/news/section?pz=1&cf=all&topic=t&ict=ln'; 
-=======
-$sUrl = 'http://www.goal.com/en-us?ICID=OP_TN_1'; 
->>>>>>> baf6781903566d03e91590cb5534e0eb6a9e3a79
-$sUrlSrc = getWebsiteContent($sUrl); 
+$sUrl = 'http://www.goal.com/en-us?ICID=LS_TN_1'; 
+$sUrlSrc = getWebsiteContent($http://www.goal.com/en-us/live-scores?ICID=HP_TN_38); 
  
 // Load the source 
 $dom = new DOMDocument(); 
