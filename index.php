@@ -1,5 +1,9 @@
 <?php 
+<<<<<<< HEAD
 $sUrl = 'http://news.google.com/news/section?pz=1&cf=all&topic=t&ict=ln'; 
+=======
+$sUrl = 'http://www.goal.com/en-us?ICID=OP_TN_1'; 
+>>>>>>> baf6781903566d03e91590cb5534e0eb6a9e3a79
 $sUrlSrc = getWebsiteContent($sUrl); 
  
 // Load the source 
@@ -65,3 +69,7 @@ function getWebsiteContent($sUrl) {
     return file_get_contents($sCacheFolder.$sFilename); 
 } 
 ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> baf6781903566d03e91590cb5534e0eb6a9e3a79
