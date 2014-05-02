@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 <?php 
-<<<<<<< HEAD
 $sUrl = 'http://news.google.com/news/section?pz=1&cf=all&topic=t&ict=ln'; 
 =======
 $sUrl = 'http://www.goal.com/en-us?ICID=OP_TN_1'; 
@@ -101,4 +99,3 @@ function getWebsiteContent($sUrl) {
 }
 
 ?>
->>>>>>> 4e9283e8a9b98f40fec8de32651ae81d0eb20fd7
