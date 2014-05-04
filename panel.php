@@ -75,11 +75,11 @@ include("config.php");
                                 </p>
                                 <p class="signin button"> 
 									<input type="submit" name="bdaftar" value="Sign up"/> 
-								</p>
+					</p>
                                 <p class="change_link">  
 									Already a member ?
-									<a href="#tologin" class="to_register"> Go and log in </a>
-								</p>
+						<a href="#tologin" class="to_register"> Go and log in </a>
+					</p>
                             </form>
                         </div>
 						
