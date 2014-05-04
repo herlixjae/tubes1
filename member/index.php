@@ -6,6 +6,7 @@ if(!isset($_SESSION['hash']) && $_SESSION['hash']!="member")
 {
 	session_destroy();
 	echo "<script>window.location='../index.php'</script>";
+	
 }
 include("../config.php");
 require_once('../includes/functions/publicfunc.php');
@@ -15,6 +16,7 @@ require_once('../includes/functions/dbfunc.php');
 <!--[if lt IE 7 ]><html lang="en" class="ie6 ielt7 ielt8 ielt9"><![endif]--><!--[if IE 7 ]><html lang="en" class="ie7 ielt8 ielt9"><![endif]--><!--[if IE 8 ]><html lang="en" class="ie8 ielt9"><![endif]--><!--[if IE 9 ]><html lang="en" class="ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--> 
 <html lang="en"><!--<![endif]--> 
 <head>
+
 		<meta charset="utf-8">
 		<title>Member</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">        
