@@ -62,7 +62,7 @@ require_once('../includes/functions/dbfunc.php');
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entri <b class="caret"></b></a>
 									<ul class="dropdown-menu">
                                     	<li class="nav-header">
-											Posting
+							Posting
 										</li>
 										<li>
 											<a href="?p=kategori">Kategori</a>
@@ -82,10 +82,10 @@ require_once('../includes/functions/dbfunc.php');
 							</ul>							
 							<ul class="nav pull-right">
 								<li>
-									<a href="?p=chgpwd"><?php echo $_SESSION['user']; ?></a>
+					<a href="?p=chgpwd"><?php echo $_SESSION['user']; ?></a>
 								</li>
                                 <li>
-									<a href="<?php echo $base_url; ?>" target="_blank">View Site</a>
+					<a href="<?php echo $base_url; ?>" target="_blank">View Site</a>
 								</li>
 								<li>
 									<a href="../logout.php">Logout</a>
