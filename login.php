@@ -15,13 +15,13 @@ include("config.php");
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	</head>
 	<body>
-		<div id="login-page" class="container">
+	<div id="login-page" class="container">
 			<h1>LOGIN PORTAL</h1>
 			<form id="login-form" class="well" action="" method="post">
 			<input type="text" class="span2" placeholder="Username" name="user" /><br />
 			<input type="password" class="span2" placeholder="Password" name="pass" /><br />
 			<button type="submit" class="btn btn-primary" name="button">Sign in</button>
-			
+
 		</form>	
 		</div>
 		<script src="js/jquery.min.js"></script>
@@ -56,7 +56,6 @@ if(isset($_POST['button']))
 			$_SESSION['hash']=$pl;
 			echo "<script>window.location='member/index.php'</script>";
 		}
-		
 		
 	}
 }
