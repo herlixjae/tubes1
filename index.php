@@ -25,7 +25,6 @@ if(!isset($_GET['post_id']) && !isset($_GET['category'])&& !isset($_GET['s'])&& 
 	
       
     
-    
 <div class="header_menu">
 	<div class="container">
 		<div class="logo"><a href="index.php"><h2 style="color:#FFF"><?php echo _getconfigdb("company_name"); ?></h2></a></div>
